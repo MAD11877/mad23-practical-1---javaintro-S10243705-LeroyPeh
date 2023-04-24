@@ -18,6 +18,6 @@ public class Question2
 
     double bmi = (weight/(height*height));
     in.close();
-    System.out.printf("%.2f",bmi);
+    System.out.printf("%.1f",bmi);
   }
 }
